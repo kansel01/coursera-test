@@ -1,0 +1,74 @@
+/* reset */
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: cursive;
+	margin: 0;
+	padding: 1em;
+}
+
+/* base */
+h1 {
+	text-align: center;
+}
+
+/* mobile first */
+section {
+	background-color: #999999;
+	border: 2px solid black;
+	position: relative;
+	margin: 1em 0em;
+	padding: 2em 1em 1em;
+	box-sizing: border-box;
+	min-width: 18em;
+	vertical-align: top;
+}
+h2 {
+	border: 2px solid black;
+	position: absolute;
+	top: -2px;
+	right: -2px;
+	margin: 0;
+	padding: .2em .5em;
+	width: 6em;
+	text-align: center;
+	font-size: 1.2em;
+}
+p {
+	margin: 1em 0 0;
+}
+
+#sec-chicken h2 {
+	background-color: #D59898;
+}
+#sec-beef h2 {
+	background-color: #C14543; color: white;
+}
+#sec-sushi h2 {
+	background-color: #E5D198;
+}
+
+/* tablet view */
+@media (min-width:768px) and (max-width: 991px){
+	#first-two {
+		columns: 2;
+		-moz-columns: 2;
+	}
+	#first-two section {
+		margin: 0;
+	}
+}
+
+
+/* desktop view */
+@media (min-width: 992px){
+	#all-three {
+		columns: 3;
+		-moz-columns: 3;
+	}
+	#all-three section {
+		margin: 0;
+	}
+}
