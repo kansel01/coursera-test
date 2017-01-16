@@ -55,6 +55,7 @@ p {
 	#first-two {
 		columns: 2;
 		-moz-columns: 2;
+		-webkit-columns: 2;
 	}
 	#first-two section {
 		margin: 0;
@@ -67,6 +68,7 @@ p {
 	#all-three {
 		columns: 3;
 		-moz-columns: 3;
+		-webkit-columns: 3;
 	}
 	#all-three section {
 		margin: 0;
