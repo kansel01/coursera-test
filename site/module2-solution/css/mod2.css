@@ -18,7 +18,7 @@ h1 {
 /* mobile first */
 section {
 	background-color: #999999;
-	border: 2px solid black;
+	border: 1px solid black;
 	position: relative;
 	margin: 1em 0em;
 	padding: 2em 1em 1em;
@@ -27,10 +27,10 @@ section {
 	vertical-align: top;
 }
 h2 {
-	border: 2px solid black;
+	border: 1px solid black;
 	position: absolute;
-	top: -2px;
-	right: -2px;
+	top: -1px;
+	right: -1px;
 	margin: 0;
 	padding: .2em .5em;
 	width: 6em;
