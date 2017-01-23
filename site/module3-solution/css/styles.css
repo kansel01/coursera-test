@@ -1,0 +1,38 @@
+body {
+	font-family: "MS Comic Sans", "Comic Sans", cursive;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header {
+	padding-bottom: 1em;
+}
+.navbar-brand h1 {
+	margin: 0;
+}
+
+nav.navbar {
+	background-color: #eed;
+	
+}
+
+
+#nav-list {
+	background-color: #aba;
+
+}
+
+section {
+	background-color: silver;
+	padding: .5em;
+	margin: .5em 0;
+}
+
+section header {
+	padding: .5em;
+}
+section h2 {
+	margin: 0;
+}
